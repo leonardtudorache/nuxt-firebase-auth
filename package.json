@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-firebase-auth",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development nuxt dev --hostname 'localhost' --port 8080",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@firebase/auth": "^1.7.5",
+    "@pinia/nuxt": "^0.5.5",
+    "core-js": "^3.25.3",
+    "dotenv": "^16.4.5",
+    "firebase": "^10.14.1",
+    "firebase-admin": "^12.6.0",
+    "nuxt": "^3.12.4",
+    "nuxt-vuefire": "^1.0.4",
+    "pinia": "^2.2.0",
+    "vue": "^3.3.9"
+  }
+}
